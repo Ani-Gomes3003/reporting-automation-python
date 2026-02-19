@@ -1,14 +1,15 @@
 import pandas as pd
 import os
-input_file = "data/raw_data.xlsx"
-output_file = "data/final_report.xlsx"
-print("Starting automation...")
-print(f"Reading input file: {input_file}")
 
 
 # File paths
 input_file = "data/raw_data.xlsx"
 output_file = "data/final_report.xlsx"
+
+print("Starting automation...")
+print(f"Reading input file: {input_file}")
+
+
 
 # Check if input exists
 if not os.path.exists(input_file):
